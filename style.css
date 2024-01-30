@@ -51,7 +51,7 @@ html {
   font-weight: 500;
 }
 
-/* HEADER */
+/* HEADER e MENU */
 
 nav {
   max-width: 1120px;
@@ -82,7 +82,7 @@ nav {
   color: #fff2e780;
 }
 
-.cabeçalho-menu-rede {
+.github {
   color: #fff2e7;
   font-weight: 600;
 }
@@ -162,7 +162,7 @@ hr {
 
 .hero-imagens-container > figure > img {
   max-width: 100%;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
 }
 
 /* BOTÃO DO HERO */
@@ -215,15 +215,16 @@ button {
   color: #c7bab3;
 }
 
-.receitas-card-container {
-  padding: 0rem 10rem;
+.card-container {
+  border: 5px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.receitas-card {
+.card {
   background: #241a1c;
 
   padding: 2rem;
@@ -233,53 +234,53 @@ button {
   flex-direction: column;
 
   gap: 2rem;
-  flex-basis: 29rem;
+  flex-basis: 28rem;
   margin-top: 2rem;
 }
 
-.receitas-card-cabecalho {
+.card-cabecalho {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.receitas-card-cabecalho-detalhes {
+.card-cabecalho-detalhes {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.receita-titulo {
+.card-titulo {
   color: #fff2e7;
   font-family: Montserrat;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.receita-avaliacao {
+.card-avaliacao {
   color: #756a67;
   font-size: 1rem;
 }
 
-.receita-descricao {
+.card-descricao {
   color: #c7bab3;
   font-size: 1rem;
   font-weight: 400;
 }
 
-.receita-autor {
+.card-autor {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
 }
 
-.receita-autor > img {
+.card-autor > img {
   border-radius: 20rem;
   width: 1.5rem;
 }
 
-.receita-autor-nome {
+.card-autor-nome {
   color: #c7bab3;
   font-size: 1rem;
   font-weight: 600;
