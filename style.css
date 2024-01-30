@@ -78,7 +78,11 @@ nav {
   color: #fff2e780;
 }
 
-.cabeçalho-menu-github {
+.item {
+  color: #fff2e780;
+}
+
+.cabeçalho-menu-rede {
   color: #fff2e7;
   font-weight: 600;
 }
@@ -163,7 +167,7 @@ hr {
 
 /* BOTÃO DO HERO */
 
-.botao-container {
+.botão-container {
   width: 100%;
   max-width: 1120px;
   margin: auto;
@@ -283,10 +287,10 @@ button {
 
 /* CARREGAR MAIS */
 
-.detalhe-baixo {
+.carregar {
   color: #fff2e7;
   font-family: 'inter';
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 500;
   text-transform: uppercase;
 
